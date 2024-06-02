@@ -28,13 +28,31 @@
 # fourth()
 
 
-#5
-def info():
-    name = input("What is ur name ? ")
-    surname = input("What is ur surname ? ")
-    age = input("how old are u ? ")
-    print('ur name is',name)
-    print('ur surname is ', surname)
-    print('u r ', age ,"years old")
-info()
+# #5
+# def info():
+#     name = input("What is ur name ? ")
+#     surname = input("What is ur surname ? ")
+#     age = input("how old are u ? ")
+#     print('ur name is',name)
+#     print('ur surname is ', surname)
+#     print('u r ', age ,"years old")
+# info()
 
+#6
+def math():
+
+    a = float(input("1st number: "))
+    b = float(input("2nd number: "))
+    c = float(input("3rd number: "))
+
+    plus = a + b + c
+    umn = a * b * c
+    dele = a/b/c
+    min = a-b-c
+
+    print(plus)
+    print(min)
+    print(umn)
+    print(dele)
+
+math()
