@@ -58,19 +58,30 @@
 # math()
 
 #7
-def math():
-
-    a = 15
-    b = 7.7
-    c = "77"
-
-    a = float(a)
-    b = float(b)
-    c = float(c)
-
-    action = a*b*c
-    print(action)
-math()
+# def math():
+#
+#     a = 15
+#     b = 7.7
+#     c = "77"
+#
+#     a = float(a)
+#     b = float(b)
+#     c = float(c)
+#
+#     action = a*b*c
+#     print(action)
+# math()
 
 #8
+def math():
+    a = 12
+    b =22.6
+    c =333.1
+
+    a = int(a)
+    b = int(b)
+    c = int(c)
+    r = a+b+c
+    print(r)
+math()
 
