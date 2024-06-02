@@ -96,16 +96,20 @@
 # pas()
 
 #10
-a = float(input('gimme ur first number :'))
-b = float(input('gimme ur second number :'))
-c = input('choose action : + - * / :')
-if c == '+':
-    print(a+b)
-if c == '-':
-    print(a-b)
-if c == '*':
-    print(a*b)
-if c == '/':
-    print(a/b)
-else:
-    print('learn math ')
+# a = float(input('gimme ur first number :'))
+# b = float(input('gimme ur second number :'))
+# c = input('choose action : + - * / :')
+# if c == '+':
+#     print(a+b)
+# if c == '-':
+#     print(a-b)
+# if c == '*':
+#     print(a*b)
+# if c == '/':
+#     print(a/b)
+# else:
+#     print('learn math ')
+
+#11
+print('Hello,World!')
+
