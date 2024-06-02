@@ -39,20 +39,38 @@
 # info()
 
 #6
+# def math():
+#
+#     a = float(input("1st number: "))
+#     b = float(input("2nd number: "))
+#     c = float(input("3rd number: "))
+#
+#     plus = a + b + c
+#     umn = a * b * c
+#     dele = a/b/c
+#     min = a-b-c
+#
+#     print(plus)
+#     print(min)
+#     print(umn)
+#     print(dele)
+#
+# math()
+
+#7
 def math():
 
-    a = float(input("1st number: "))
-    b = float(input("2nd number: "))
-    c = float(input("3rd number: "))
+    a = 15
+    b = 7.7
+    c = "77"
 
-    plus = a + b + c
-    umn = a * b * c
-    dele = a/b/c
-    min = a-b-c
+    a = float(a)
+    b = float(b)
+    c = float(c)
 
-    print(plus)
-    print(min)
-    print(umn)
-    print(dele)
-
+    action = a*b*c
+    print(action)
 math()
+
+#8
+
