@@ -86,11 +86,26 @@
 # math()
 
 #9
-def pas():
-    a = input('create a password: ')
-    b = input('confirm ur password: ')
-    if a ==b:
-        print('well done')
-    else :
-        print("u fucking nigga")
-pas()
+# def pas():
+#     a = input('create a password: ')
+#     b = input('confirm ur password: ')
+#     if a ==b:
+#         print('well done')
+#     else :
+#         print("u fucking nigga")
+# pas()
+
+#10
+a = float(input('gimme ur first number :'))
+b = float(input('gimme ur second number :'))
+c = input('choose action : + - * / :')
+if c == '+':
+    print(a+b)
+if c == '-':
+    print(a-b)
+if c == '*':
+    print(a*b)
+if c == '/':
+    print(a/b)
+else:
+    print('learn math ')
