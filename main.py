@@ -73,15 +73,24 @@
 # math()
 
 #8
-def math():
-    a = 12
-    b =22.6
-    c =333.1
+# def math():
+#     a = 12
+#     b =22.6
+#     c =333.1
+#
+#     a = int(a)
+#     b = int(b)
+#     c = int(c)
+#     r = a+b+c
+#     print(r)
+# math()
 
-    a = int(a)
-    b = int(b)
-    c = int(c)
-    r = a+b+c
-    print(r)
-math()
-
+#9
+def pas():
+    a = input('create a password: ')
+    b = input('confirm ur password: ')
+    if a ==b:
+        print('well done')
+    else :
+        print("u fucking nigga")
+pas()
